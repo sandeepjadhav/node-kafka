@@ -77,7 +77,7 @@ sudo apt install nodejs npm -y
 2. cd node-kafka
 3. npm install
 4. npm start
-4. Use Postman/Insomenia or any other API testing api with below payload
+4. Use Postman/Insomnia or any other API testing app with below payload
 ```
 curl --location 'http://localhost:3000/send' \
 --header 'Content-Type: application/json' \
