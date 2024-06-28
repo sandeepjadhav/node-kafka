@@ -9,7 +9,7 @@ const port = process.env.PORT || 3001;
 app.use(express.json());
 
 app.post('/send', async (req, res) => {
-    const message = req.body.message;
+    const message = req.body;
     try {
         const result = await sendMessage(message);
         res.status(200).send(result);
