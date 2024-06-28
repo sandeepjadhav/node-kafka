@@ -1,4 +1,3 @@
-require('dotenv').config();
 const kafka = require('kafka-node');
 
 const kafkaHost = process.env.KAFKA_HOST;
